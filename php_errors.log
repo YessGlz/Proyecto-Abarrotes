@@ -1,0 +1,160 @@
+[03-Dec-2023 02:13:59 UTC] PHP Warning:  Undefined array key "id_cliente" in C:\Apache24\htdocs\Proyecto-Abarrotes\clientes.php on line 17
+[03-Dec-2023 02:13:59 UTC] PHP Warning:  Undefined array key "nombre_cliente" in C:\Apache24\htdocs\Proyecto-Abarrotes\clientes.php on line 18
+[03-Dec-2023 02:13:59 UTC] PHP Warning:  Undefined array key "informacion_contacto" in C:\Apache24\htdocs\Proyecto-Abarrotes\clientes.php on line 19
+[03-Dec-2023 02:13:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column `abarrotes_olan`.`clientes`.`id_cliente` at row 1 in C:\Apache24\htdocs\Proyecto-Abarrotes\clientes.php:25
+Stack trace:
+#0 C:\Apache24\htdocs\Proyecto-Abarrotes\clientes.php(25): mysqli->query('INSERT INTO cli...')
+#1 {main}
+  thrown in C:\Apache24\htdocs\Proyecto-Abarrotes\clientes.php on line 25
+[03-Dec-2023 02:15:37 UTC] PHP Warning:  Undefined array key "id_cliente" in C:\Apache24\htdocs\Proyecto-Abarrotes\clientes.php on line 17
+[03-Dec-2023 02:15:37 UTC] PHP Warning:  Undefined array key "nombre_cliente" in C:\Apache24\htdocs\Proyecto-Abarrotes\clientes.php on line 18
+[03-Dec-2023 02:15:37 UTC] PHP Warning:  Undefined array key "informacion_contacto" in C:\Apache24\htdocs\Proyecto-Abarrotes\clientes.php on line 19
+[03-Dec-2023 02:15:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column `abarrotes_olan`.`clientes`.`id_cliente` at row 1 in C:\Apache24\htdocs\Proyecto-Abarrotes\clientes.php:25
+Stack trace:
+#0 C:\Apache24\htdocs\Proyecto-Abarrotes\clientes.php(25): mysqli->query('INSERT INTO cli...')
+#1 {main}
+  thrown in C:\Apache24\htdocs\Proyecto-Abarrotes\clientes.php on line 25
+[03-Dec-2023 03:04:18 UTC] PHP Warning:  Undefined array key "nombre_producto" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 18
+[03-Dec-2023 03:04:18 UTC] PHP Warning:  Undefined array key "unidad_medida" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 19
+[03-Dec-2023 03:04:18 UTC] PHP Warning:  Undefined array key "marca_producto" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 20
+[03-Dec-2023 03:04:18 UTC] PHP Warning:  Undefined array key "precio_venta" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 21
+[03-Dec-2023 03:04:18 UTC] PHP Warning:  Undefined array key "Categoria_producto" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 22
+[03-Dec-2023 03:04:18 UTC] PHP Warning:  Undefined array key "Margen_ganancia" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 23
+[03-Dec-2023 03:04:18 UTC] PHP Warning:  Undefined array key "costo_compra" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 24
+[03-Dec-2023 03:04:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column `abarrotes_olan`.`productos`.`precio_venta` at row 1 in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php:30
+Stack trace:
+#0 C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php(30): mysqli->query('INSERT INTO pro...')
+#1 {main}
+  thrown in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 30
+[03-Dec-2023 03:08:01 UTC] PHP Warning:  Undefined array key "nombre_producto" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 18
+[03-Dec-2023 03:08:01 UTC] PHP Warning:  Undefined array key "unidad_medida" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 19
+[03-Dec-2023 03:08:01 UTC] PHP Warning:  Undefined array key "marca_producto" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 20
+[03-Dec-2023 03:08:01 UTC] PHP Warning:  Undefined array key "precio_venta" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 21
+[03-Dec-2023 03:08:01 UTC] PHP Warning:  Undefined array key "Categoria_producto" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 22
+[03-Dec-2023 03:08:01 UTC] PHP Warning:  Undefined array key "Margen_ganancia" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 23
+[03-Dec-2023 03:08:01 UTC] PHP Warning:  Undefined array key "costo_compra" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 24
+[03-Dec-2023 03:08:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column `abarrotes_olan`.`productos`.`precio_venta` at row 1 in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php:30
+Stack trace:
+#0 C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php(30): mysqli->query('INSERT INTO pro...')
+#1 {main}
+  thrown in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 30
+[03-Dec-2023 03:10:41 UTC] PHP Warning:  Undefined array key "nombre_producto" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 18
+[03-Dec-2023 03:10:41 UTC] PHP Warning:  Undefined array key "unidad_medida" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 19
+[03-Dec-2023 03:10:41 UTC] PHP Warning:  Undefined array key "marca_producto" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 20
+[03-Dec-2023 03:10:41 UTC] PHP Warning:  Undefined array key "precio_venta" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 21
+[03-Dec-2023 03:10:41 UTC] PHP Warning:  Undefined array key "Categoria_producto" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 22
+[03-Dec-2023 03:10:41 UTC] PHP Warning:  Undefined array key "Margen_ganancia" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 23
+[03-Dec-2023 03:10:41 UTC] PHP Warning:  Undefined array key "costo_compra" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 24
+[03-Dec-2023 03:10:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column `abarrotes_olan`.`productos`.`precio_venta` at row 1 in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php:30
+Stack trace:
+#0 C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php(30): mysqli->query('INSERT INTO pro...')
+#1 {main}
+  thrown in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 30
+[03-Dec-2023 03:13:30 UTC] PHP Warning:  Undefined array key "nombre_producto" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 18
+[03-Dec-2023 03:13:30 UTC] PHP Warning:  Undefined array key "unidad_medida" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 19
+[03-Dec-2023 03:13:30 UTC] PHP Warning:  Undefined array key "marca_producto" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 20
+[03-Dec-2023 03:13:30 UTC] PHP Warning:  Undefined array key "precio_venta" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 21
+[03-Dec-2023 03:13:30 UTC] PHP Warning:  Undefined array key "Categoria_producto" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 22
+[03-Dec-2023 03:13:30 UTC] PHP Warning:  Undefined array key "Margen_ganancia" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 23
+[03-Dec-2023 03:13:30 UTC] PHP Warning:  Undefined array key "costo_compra" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 24
+[03-Dec-2023 03:13:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column `abarrotes_olan`.`productos`.`precio_venta` at row 1 in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php:30
+Stack trace:
+#0 C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php(30): mysqli->query('INSERT INTO pro...')
+#1 {main}
+  thrown in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 30
+[03-Dec-2023 03:20:51 UTC] PHP Warning:  Undefined array key "nombre_producto" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 18
+[03-Dec-2023 03:20:51 UTC] PHP Warning:  Undefined array key "unidad_medida" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 19
+[03-Dec-2023 03:20:51 UTC] PHP Warning:  Undefined array key "marca_producto" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 20
+[03-Dec-2023 03:20:51 UTC] PHP Warning:  Undefined array key "precio_venta" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 21
+[03-Dec-2023 03:20:51 UTC] PHP Warning:  Undefined array key "Categoria_producto" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 22
+[03-Dec-2023 03:20:51 UTC] PHP Warning:  Undefined array key "Margen_ganancia" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 23
+[03-Dec-2023 03:20:51 UTC] PHP Warning:  Undefined array key "costo_compra" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 24
+[03-Dec-2023 03:20:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column `abarrotes_olan`.`productos`.`precio_venta` at row 1 in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php:30
+Stack trace:
+#0 C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php(30): mysqli->query('INSERT INTO pro...')
+#1 {main}
+  thrown in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 30
+[03-Dec-2023 03:21:07 UTC] PHP Warning:  Undefined array key "nombre_producto" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 18
+[03-Dec-2023 03:21:07 UTC] PHP Warning:  Undefined array key "unidad_medida" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 19
+[03-Dec-2023 03:21:07 UTC] PHP Warning:  Undefined array key "marca_producto" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 20
+[03-Dec-2023 03:21:07 UTC] PHP Warning:  Undefined array key "precio_venta" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 21
+[03-Dec-2023 03:21:07 UTC] PHP Warning:  Undefined array key "Categoria_producto" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 22
+[03-Dec-2023 03:21:07 UTC] PHP Warning:  Undefined array key "Margen_ganancia" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 23
+[03-Dec-2023 03:21:07 UTC] PHP Warning:  Undefined array key "costo_compra" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 24
+[03-Dec-2023 03:21:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column `abarrotes_olan`.`productos`.`precio_venta` at row 1 in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php:30
+Stack trace:
+#0 C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php(30): mysqli->query('INSERT INTO pro...')
+#1 {main}
+  thrown in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 30
+[03-Dec-2023 03:22:15 UTC] PHP Warning:  Undefined array key "nombre_producto" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 18
+[03-Dec-2023 03:22:15 UTC] PHP Warning:  Undefined array key "unidad_medida" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 19
+[03-Dec-2023 03:22:15 UTC] PHP Warning:  Undefined array key "marca_producto" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 20
+[03-Dec-2023 03:22:15 UTC] PHP Warning:  Undefined array key "precio_venta" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 21
+[03-Dec-2023 03:22:15 UTC] PHP Warning:  Undefined array key "Categoria_producto" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 22
+[03-Dec-2023 03:22:15 UTC] PHP Warning:  Undefined array key "Margen_ganancia" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 23
+[03-Dec-2023 03:22:15 UTC] PHP Warning:  Undefined array key "costo_compra" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 24
+[03-Dec-2023 03:22:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column `abarrotes_olan`.`productos`.`precio_venta` at row 1 in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php:30
+Stack trace:
+#0 C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php(30): mysqli->query('INSERT INTO pro...')
+#1 {main}
+  thrown in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 30
+[03-Dec-2023 03:23:01 UTC] PHP Warning:  Undefined array key "nombre_producto" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 18
+[03-Dec-2023 03:23:01 UTC] PHP Warning:  Undefined array key "unidad_medida" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 19
+[03-Dec-2023 03:23:01 UTC] PHP Warning:  Undefined array key "marca_producto" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 20
+[03-Dec-2023 03:23:01 UTC] PHP Warning:  Undefined array key "precio_venta" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 21
+[03-Dec-2023 03:23:01 UTC] PHP Warning:  Undefined array key "Categoria_producto" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 22
+[03-Dec-2023 03:23:01 UTC] PHP Warning:  Undefined array key "Margen_ganancia" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 23
+[03-Dec-2023 03:23:01 UTC] PHP Warning:  Undefined array key "costo_compra" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 24
+[03-Dec-2023 03:23:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column `abarrotes_olan`.`productos`.`precio_venta` at row 1 in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php:30
+Stack trace:
+#0 C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php(30): mysqli->query('INSERT INTO pro...')
+#1 {main}
+  thrown in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 30
+[03-Dec-2023 03:23:36 UTC] PHP Warning:  Undefined array key "nombre_producto" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 18
+[03-Dec-2023 03:23:36 UTC] PHP Warning:  Undefined array key "unidad_medida" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 19
+[03-Dec-2023 03:23:36 UTC] PHP Warning:  Undefined array key "marca_producto" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 20
+[03-Dec-2023 03:23:36 UTC] PHP Warning:  Undefined array key "precio_venta" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 21
+[03-Dec-2023 03:23:36 UTC] PHP Warning:  Undefined array key "Categoria_producto" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 22
+[03-Dec-2023 03:23:36 UTC] PHP Warning:  Undefined array key "Margen_ganancia" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 23
+[03-Dec-2023 03:23:36 UTC] PHP Warning:  Undefined array key "costo_compra" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 24
+[03-Dec-2023 03:23:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column `abarrotes_olan`.`productos`.`precio_venta` at row 1 in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php:30
+Stack trace:
+#0 C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php(30): mysqli->query('INSERT INTO pro...')
+#1 {main}
+  thrown in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 30
+[03-Dec-2023 03:23:58 UTC] PHP Warning:  Undefined array key "nombre_producto" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 18
+[03-Dec-2023 03:23:58 UTC] PHP Warning:  Undefined array key "unidad_medida" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 19
+[03-Dec-2023 03:23:58 UTC] PHP Warning:  Undefined array key "marca_producto" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 20
+[03-Dec-2023 03:23:58 UTC] PHP Warning:  Undefined array key "precio_venta" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 21
+[03-Dec-2023 03:23:58 UTC] PHP Warning:  Undefined array key "Categoria_producto" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 22
+[03-Dec-2023 03:23:58 UTC] PHP Warning:  Undefined array key "Margen_ganancia" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 23
+[03-Dec-2023 03:23:58 UTC] PHP Warning:  Undefined array key "costo_compra" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 24
+[03-Dec-2023 03:23:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column `abarrotes_olan`.`productos`.`precio_venta` at row 1 in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php:30
+Stack trace:
+#0 C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php(30): mysqli->query('INSERT INTO pro...')
+#1 {main}
+  thrown in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 30
+[03-Dec-2023 03:26:05 UTC] PHP Warning:  Undefined array key "nombre_producto" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 18
+[03-Dec-2023 03:26:05 UTC] PHP Warning:  Undefined array key "unidad_medida" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 19
+[03-Dec-2023 03:26:05 UTC] PHP Warning:  Undefined array key "marca_producto" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 20
+[03-Dec-2023 03:26:05 UTC] PHP Warning:  Undefined array key "precio_venta" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 21
+[03-Dec-2023 03:26:05 UTC] PHP Warning:  Undefined array key "Categoria_producto" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 22
+[03-Dec-2023 03:26:05 UTC] PHP Warning:  Undefined array key "Margen_ganancia" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 23
+[03-Dec-2023 03:26:05 UTC] PHP Warning:  Undefined array key "costo_compra" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 24
+[03-Dec-2023 03:26:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column `abarrotes_olan`.`productos`.`precio_venta` at row 1 in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php:30
+Stack trace:
+#0 C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php(30): mysqli->query('INSERT INTO pro...')
+#1 {main}
+  thrown in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 30
+[03-Dec-2023 03:26:09 UTC] PHP Warning:  Undefined array key "nombre_producto" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 18
+[03-Dec-2023 03:26:09 UTC] PHP Warning:  Undefined array key "unidad_medida" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 19
+[03-Dec-2023 03:26:09 UTC] PHP Warning:  Undefined array key "marca_producto" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 20
+[03-Dec-2023 03:26:09 UTC] PHP Warning:  Undefined array key "precio_venta" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 21
+[03-Dec-2023 03:26:09 UTC] PHP Warning:  Undefined array key "Categoria_producto" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 22
+[03-Dec-2023 03:26:09 UTC] PHP Warning:  Undefined array key "Margen_ganancia" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 23
+[03-Dec-2023 03:26:09 UTC] PHP Warning:  Undefined array key "costo_compra" in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 24
+[03-Dec-2023 03:26:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column `abarrotes_olan`.`productos`.`precio_venta` at row 1 in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php:30
+Stack trace:
+#0 C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php(30): mysqli->query('INSERT INTO pro...')
+#1 {main}
+  thrown in C:\Apache24\htdocs\Proyecto-Abarrotes\datos.php on line 30
