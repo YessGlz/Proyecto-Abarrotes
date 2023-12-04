@@ -23,6 +23,34 @@ section{
     padding: 2rem 9%;
 }
 
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    color: #333;
+    padding: 1rem;
+    margin: 2rem 0;
+    background: rgba(255, 51, 153,.05);
+}
+
+.heading span{
+    color: #13034e;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: #333;
+    color: #fff;
+    padding: 1rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+
+.btn:hover{
+    background: #fdc84f;
+}
+
 header{
     position: fixed;
     top: 0; left: 0; right: 0;
@@ -88,8 +116,79 @@ header .fa-bars{
     background-position: center;
 }
 
+.Inicio .content{
+    max-width: 50rem;
+}
 
+.Inicio .content h3{
+    font-size: 6rem;
+    color:#13034e;
+}
 
+.Inicio .content span{
+    font-size: 3.5rem;
+    color: #19055b;
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+.Inicio .content p{
+    font-size: 1.9rem;
+    color:#19055b;
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+.Información .row{
+    display: flex;
+    align-items: center;
+    gap:2rem;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+}
+
+.Información .row .video-container{
+    flex: 1 1 40rem;
+    position: relative;
+}
+
+.Información .row .video-container video{
+    width: 100%;
+    border: 1.5rem solid #fff;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    height: 100%;
+    object-fit: cover;
+}
+
+.Información .row .video-container h3{
+    position: absolute;
+    top: 50%; transform: translateY(-50%);
+    font-size: 3rem;
+    background: #fff;
+    width: 100%;
+    padding: 1rem 2rem;
+    text-align: center;
+    mix-blend-mode: screen;
+}
+
+.Información .row .content{
+    flex: 1 1 40rem;
+}
+
+.Información .row .content h3{
+    font-size: 3rem;
+    color: #333;
+}
+
+.Información .row .content p{
+    font-size: 1.5 rem;
+    color: #999;
+    padding: .5rem 0;
+    padding-top: 1rem;
+    line-height: 1.5;
+}
 
 
 
@@ -119,6 +218,14 @@ header .fa-bars{
     header{
         padding: 2rem;
     }
+
+    section{
+        padding: 2rem;
+    }
+
+    .home{
+        background-position: left;
+    }
 }
 
 @media (max-width:768px){
@@ -147,12 +254,24 @@ header .fa-bars{
         border: 1rem solid rgba(0,0,0,.1);
         display: block;
     }
+
+    .home .content h3{
+        font-size: 5rem;
+    }
+
+    .home .content span{
+        font-size: 5rem;
+    }
 }
 
 @media (max-width:450px){
 
     html{
         font-size: 50%;
+    }
+
+    .heading{
+        font-size: 3rem;
     }
     
 }
