@@ -74,23 +74,66 @@ header .logo span{
 }
 
 header .navbar a{
-    font-size: 2rem;
-    padding: 0 1.5rem;
+    font-size: 1.7rem;
+    margin: 0 1rem;
     color: #666;
+    
 }
 
 header .navbar a:hover{
     color:var(--pink);
 }
 
-header .icons i{
+header .icons div{
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
     font-size: 3rem;
     color: #333;
     margin-left: 1.5rem;
 }
 
-header .icons i:hover{
+header .icons div:hover{
     color:var(--pink);
+}
+
+header .search-form{
+    position: absolute;
+    top: 110%; right:-110%;
+    max-width: 50rem;
+    height: 5rem;
+    background: #fff;
+    border-radius: .5rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    box-shadow: var(--pink);
+}
+
+header .search-form.active{
+    right: 2rem;
+    transition: .4s linear;
+}
+
+header .search-form input{
+    height: 100%;
+    width: 100%;
+    background: none;
+    text-transform: none;
+    font-size: 1.6rem;
+    color: #333;
+    padding: 0 1.5rem;
+}
+
+header .search-form label{
+    font-size: 2.2rem;
+    padding-right: 1.5rem;
+    color: #333;
+    cursor: pointer;
+}
+
+header .search-form label:hover{
+    color: var(--pink);
 }
 
 header #toggler{
@@ -199,6 +242,7 @@ header .fa-bars{
     padding-bottom: 5rem;
 
 }
+
 
 .icons-conta .icons{
     background: #fff;

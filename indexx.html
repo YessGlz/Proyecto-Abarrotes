@@ -15,7 +15,7 @@
         <input type="checkbox" name="" id="toggler">
         <label for="toggler" class="fas fa-bars"> </label>
 
-        <a href="#" class="logo">Abarrotes Olan<span>.</span></a>
+        <a href="#" class="logo">Abarrotes Olán<span>.</span></a>
 
         <nav class="navbar">
             <a href="#Inicio">Inicio</a>
@@ -26,16 +26,25 @@
         </nav>
 
         <div class="icons">
-            <i class='bx bx-home-heart'></i>
-            <i class='bx bxs-shopping-bags'></i>
-            <i class='bx bxs-user'></i>
+            
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="carrito.btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
         </div>
+
+        <form action="" class="search-form">
+            <input type="buscar" id="buscar-box" placeholder="Buscar aquí...">
+            <label for="buscar-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart"></div>
+
     </header>
 
     <section class="Inicio" id="Inicio">
         <div class="content">
-            <h3>Productos</h3>
-            <span>Tienda de abarrotes</span>
+            <h3>Tienda de abarrotes</h3>
+            <span>Abarrotes Olán</span>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A mollitia nesciunt necessitatibus porro quae
                 nostrum blanditiis, voluptatibus, vel, fugit cum nihil quo fuga. At architecto numquam possimus
                 recusandae atque molestias.</p>
@@ -366,7 +375,7 @@
                 <input type="email" placeholder="Email" class="box">
                 <input type="número" placeholder="Número" class="box">
                 <textarea name="" class="box" placeholder="Mensaje" id="" cols="30" rows="10"></textarea>
-                <input type="submit" value="enviar mensjae" class="btn">
+                <input type="submit" value="Enviar mensaje" class="btn">
             </form>
 
             <div class="image">
@@ -423,6 +432,8 @@
     <!--Fin seccion de footer-->
 
 
+
+    <script src="script.js"></script>
 
 </body>
 

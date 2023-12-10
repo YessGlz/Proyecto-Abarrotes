@@ -4,26 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de Clientes</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
 
-    <h2>Formulario de Clientes</h2>
+    <div class="container">
 
-    <form action="clientes.php" method="post">
-        <!-- Campo para id_cliente -->
-        <label for="id_cliente">ID del Cliente:</label>
-        <input type="text" id="id_cliente" name="id_cliente" required><br>
+        <div class="item">
 
-        <label for="nombre_cliente">Nombre del Cliente:</label>
-        <input type="text" id="nombre_cliente" name="nombre_cliente" required><br>
+            <div class="contact">
+                <div class="first-text"></div>
+                <h3>"Abarrotes Olan"</h3>
+            </div>
 
-        <label for="informacion_contacto">Información de Contacto:</label>
-        <input type="text" id="informacion_contacto" name="informacion_contacto" required><br>
+            <div class="submit-form">
+                <h4 class="third-text text">Formulario de Clientes</h4>
+                <form action="clientes.php" method="post">
 
-        <!-- Puedes agregar más campos según tus necesidades -->
+                    <div class="input-box">
+                        <input type="text" class="input" id="id_cliente" name="id_cliente" required><br>
+                        <label for="id_cliente">ID del Cliente:</label>
+                    </div>
 
-        <button type="submit" name="Captura"> Captura</button>
-    </form>
+                    <div class="input-box">
+                        <input type="text" class="input" id="nombre_cliente" name="nombre_cliente" required><br>
+                        <label for="nombre_cliente">Nombre del Cliente:</label>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="text" class="input" id="informacion_contacto" name="informacion_contacto" required><br>
+                        <label for="informacion_contacto">Información de Contacto:</label>
+                    </div>
+                   
+                    <button type="submit" class="btn" name="Captura"> Captura</button>
+                </form>
+
+    
+            </div>
+
+        </div>
+    </div>
 
 </body>
 </html>
