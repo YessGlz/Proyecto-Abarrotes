@@ -3,15 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abarrotes Olan - Formulario Exhibición</title>
+    <title>Formulario Exhibición</title>
+    <link rel="stylesheet" href="estilosnormal.css">
+
 </head>
 <body>
-    <center><h1><big>Formulario Exhibición</big></h1></center>
-    <form action="exhibicion.php" method="post">
-        <input type="text" name="id_exhibicion" placeholder="ID de exhibición">
-        <input type="text" name="codigo_producto" placeholder="Código del producto">
-        <input type="text" name="espacio_en_tienda" placeholder="Espacio en tienda">
-        <button type="submit" name="Captura">Captura</button>
-    </form>
+
+    <div class="barra">
+        <a href="TodosFor.html"><span class="icono regresar">&#8592;</span></a>
+        <h2>Bienvenido Usuario</h2>
+        <a href="indexx.html"><span class="icono salir">&#10005;</span></a>
+    </div>
+
+
+    <div class="container">
+
+        <div class="item">
+
+            <div class="contact">
+                <div class="first-text"></div>
+                <h3>"Abarrotes Olan"</h3>
+            </div>
+
+            <div class="submit-form">
+                <h4 class="third-text text">Formulario de Exhibición</h4>
+                <form action="exhibicion.php" method="post">
+                    <div class="input-box">
+                        <input type="text" class="input" name="id_exhibicion" required>
+                        <label for="id_exhibicion">Id exhibicion</label>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="text" class="input" name="codigo_producto" required>
+                        <label for="codigo_producto">Codigo del producto</label>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="text" class="input" name="espacio_en_tienda" required>
+                        <label for="espacio_en_tienda">Espacio en la tienda</label>
+                    </div>
+                    
+                    <button type="submit" class="btn" name="Captura"> Captura</button>
+                </form>
+            </div>
+        </div>
+    </div>
+   
+
+    <script src="javascrip.js"></script>
 </body>
 </html>

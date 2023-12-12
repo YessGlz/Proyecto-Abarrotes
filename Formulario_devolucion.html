@@ -3,19 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abarrotes Olan - Formulario Devolución</title>
+    <title>Formulario Devolución</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <center><h1><big>Formulario Devolución</big></h1></center>
-    <form action="devolucion.php" method="post">
-        <input type="text" name="id_devolucion" placeholder="ID de devolución">
-        <input type="text" name="codigo_producto" placeholder="Código del producto">
-        <input type="date" name="fecha_devolucion" placeholder="Fecha de devolución">
-        <input type="text" name="cantidad_devuelta" placeholder="Cantidad devuelta">
-        <input type="text" name="motivo_devolucion" placeholder="Motivo de devolución">
-        <input type="text" name="precio_unitario_devuelto" placeholder="Precio unitario devuelto">
-        <input type="text" name="precio_total_devuelto" placeholder="Precio total devuelto">
-        <button type="submit" name="Captura">Captura</button>
-    </form>  
+
+    <div class="barra">
+        <a href="TodosFor.html"><span class="icono regresar">&#8592;</span></a>
+        <h2>Bienvenido Usuario</h2>
+        <a href="indexx.html"><span class="icono salir">&#10005;</span></a>
+    </div>
+
+    
+    <div class="container">
+
+        <div class="item">
+
+            <div class="contact">
+
+                <div class="first-text"></div>
+                <h3>"Abarrores Olan"</h3>
+            </div>
+
+            <div class="submit-form">
+                <h4 class="third-text text">Formulario de Devolucion</h4>
+                <form action="devolucion.php" method="post">
+
+                    <div class="input-box">
+                        <input type="text" class="input" name="id_devolucion" required>
+                        <label for="id_devolucion">ID devolucion:</label>
+
+                    </div>
+
+                    <div class="input-box">
+                        <input type="text" class="input" name="codigo_producto" required>
+                        <label for="codigo_producto">Codigo del producto:</label>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="date" class="input" name="fecha_devolucion" >
+                        <label for="fecha_devolucion">Fecha de devolucion</label>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="text"class="input" name="cantidad_devuelta" required>
+                        <label for="cantidad_devuelta">Cantidad devuelta</label>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="text"class="input" name="motivo_devolucion" required>
+                        <label for="motivo_devolucion">Motivo de la devolucion</label>
+
+                    </div>
+
+                    <div class="input-box">
+                        <input type="text" class="input" name="precio_unitario_devuelto" required>
+                        <label for="precio_unitario_devuelto"> Precio unitario devuelto</label>
+
+                    </div>
+
+                    <div class="input-box">
+                        <input type="text" class="input" name="precio_total_devuelto" required>
+                        <label for="precio_total_devuelto">Precio total devuelto</label>
+
+                    </div>
+
+                    
+
+                    <button type="submit"  class="btn" name="Captura">Captura</button>
+                </form> 
+            </div>
+            
+        </div>
+    </div>
+
+
+
+     
 </body>
 </html>

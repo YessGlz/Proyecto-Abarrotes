@@ -3,20 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abarrotes Olan</title>
+    <title>Formulario productos</title>
+    <link rel="stylesheet" href="estilos.css">
+
 </head>
 <body>
-    <center><h1><big>Formulario Productos</big></h1></center>
-    <form action="datos.php" method="post">
-        <input type="text" name="codigo_producto" placeholder="Codigo del producto">
-        <input type="text" name="nombre_producto" placeholder="Nombre del producto">
-        <input type="text" name="unidad_medida" placeholder="Unidad del producto">
-        <input type="text" name="marca_producto" placeholder="Marca del producto">
-        <input type="text" name="precio_venta" placeholder="Precio venta">
-        <input type="text" name="Categoria_producto" placeholder="Categoria del producto">
-        <input type="text" name="Margen_ganancia" placeholder="Margen de ganancia">
-        <input type="text" name="costo_compra" placeholder="Costo del producto">
-        <button type="submit" name="Captura"> Captura</button>
-    </form>  
+
+    <div class="barra">
+        <a href="TodosFor.html"><span class="icono regresar">&#8592;</span></a>
+        <h2>Bienvenido Usuario</h2>
+        <a href="indexx.html"><span class="icono salir">&#10005;</span></a>
+    </div>
+
+
+    <div class="container">
+
+        <div class="item">
+
+            <div class="contact">
+
+                <div class="first-text"></div>
+                <h3>"Abarrotes Olan"</h3>
+            </div>
+
+            <div class="submit-form">
+                <h4 class="third-text text">Formulario de productos</h4>
+                <form action="datos.php" method="post">
+
+                    <div class="input-box">
+                        <input type="text" class="input" name="codigo_producto" required>
+                        <label for="codigo_producto">Codigo del producto</label>
+                    </div>
+                    
+                    <div class="input-box">
+                        <input type="text" class="input" name="nombre_producto" required>
+                        <label for="nombre_producto">Nombre del producto</label>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="text" class="input" name="unidad_medida" required>
+                        <label for="unidad_medida">Unidad del producto</label>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="text" class="input" name="marca_producto" required>
+                        <label for="marca_producto">Marca del producto</label>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="text" class="input" name="precio_venta"required>
+                        <label for="precio_venta">Precio de la venta</label>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="text" class="input" name="Categoria_producto" required>
+                        <label for="Categoria_producto">Categoria del producto</label>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="text" class="input" name="Margen_ganancia" required>
+                        <label for="Margen_ganancia">Margen de ganacia</label>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="text" class="input" name="costo_compra" required>
+                        <label for="costo_compra">Costo de la compra</label>
+                    </div>
+
+                    <button type="submit" class="btn" name="Captura"> Captura</button>
+                </form> 
+            </div>
+        </div>
+    </div> 
+
+
+    <script src="javascrip.js"></script>
 </body>
 </html>

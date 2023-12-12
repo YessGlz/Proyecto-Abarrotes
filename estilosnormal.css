@@ -122,9 +122,6 @@ form {
     display: grid;
     z-index: 1000;
 
-    overflow-y: auto;
-
-   
 }
 
 .contact{
@@ -185,8 +182,6 @@ form {
     margin-top: 20px; 
 }
 
-
-
 .barra {
     display: flex;
     justify-content: space-between;
@@ -238,6 +233,9 @@ form {
 .salir::before {
     color: #13034e;
 }
+
+
+
 
 
 

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tienda de Abarrotes</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
@@ -29,7 +29,7 @@
             
             <div class="fas fa-search" id="search-btn"></div>
             <div class="fas fa-shopping-cart" id="carrito.btn"></div>
-            <div class="fas fa-user" id="login-btn"></div>
+            <div class="fas fa-user" id="login-btn" onclick="openModal()"></div>
         </div>
 
         <form action="" class="search-form">
@@ -390,6 +390,8 @@
 
     <!--Inicio seccion de footer-->
 
+    
+
     <section class="footer">
 
         <div class="box-container">
@@ -430,6 +432,25 @@
     </section>
 
     <!--Fin seccion de footer-->
+
+
+    <a href="#" id="loginLink">Iniciar sesión</a>
+
+    <div class="modal" id="loginModal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal()">&times;</span>
+            <h2>Iniciar sesión</h2>
+            <form onsubmit="login(event)">
+                <label for="username">Usuario:</label>
+                <input type="text" id="username" required>
+    
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" required>
+    
+                <button type="submit">Iniciar sesión</button>
+            </form>
+        </div>
+    </div>
 
 
 

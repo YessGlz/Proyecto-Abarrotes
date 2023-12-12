@@ -5,50 +5,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de Bodega</title>
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <link rel="stylesheet" href="estilosnormal.css">
 </head>
 
 <body>
 
+    <div class="barra">
+        <a href="TodosFor.html"><span class="icono regresar">&#8592;</span></a>
+        <h2>Bienvenido Usuario</h2>
+        <a href="indexx.html"><span class="icono salir">&#10005;</span></a>
+    </div>
+
+    
+
     <div class="container">
-
-
-
         <div class="item">
 
             <div class="contact">
+                
 
                 <div class="first-text"></div>
                 <h3>"Abarrotes Olan"</h3>
             </div>
 
             <div class="submit-form">
+                
                 <h4 class="third-text text">Formulario de bodega</h4>
                 <form action="bodega.php" method="post">
 
                     <div class="input-box">
-                        <input type="number" class="input" id="id_bodega" name="id_bodega" required><br>
+                        <input type="number" class="input" id="id_bodega" name="id_bodega" required>
                         <label for="id_bodega">id bodega:</label>
                     </div>
 
                     <div class="input-box">
-                        <input type="text" class="input" id="codigo_producto" name="codigo_producto" required><br>
+                        <input type="text" class="input" id="codigo_producto" name="codigo_producto" required>
                         <label for="codigo_producto">Código del Producto:</label>
                     </div>
 
                     <div class="input-box">
-                        <input type="text" class="input" id="espacio_almacenamiento" name="espacio_almacenamiento" required><br>    
+                        <input type="text" class="input" id="espacio_almacenamiento" name="espacio_almacenamiento" required>   
                         <label for="espacio_almacenamiento">Espacio de Almacenamiento:</label>
                     </div>
 
                     <div class="input-box">
-                        <input type="text" class="input" id="cantidad" name="cantidad" required><br>
+                        <input type="text" class="input" id="cantidad" name="cantidad" required>
                         <label for="cantidad">Cantidad de Productos:</label>
                     </div>
                     
 
                     <button type="submit"  class="btn" name="Captura"> Captura</button>
                 </form>
+
+                <a href="#" class="logout-icon"><i class="fas fa-sign-out-alt"></i> Salir</a>
+
             </div>
 
 
@@ -57,10 +69,6 @@
 
 
         </div>
-    </div>
-
-    <div class="formulario">
-
     </div>
 
 

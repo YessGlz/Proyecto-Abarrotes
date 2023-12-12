@@ -3,19 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abarrotes Olan</title>
+    <title>Formulario compras</title>
+    <link rel="stylesheet" href="estilos.css">
+    
+
 </head>
 <body>
-    <center><h1><big>Formulario Compras</big></h1></center>
-    <form action="compras.php" method="post">
-        <input type="text" name="id_compra" placeholder="ID de compra">
-        <input type="text" name="id_cliente" placeholder="ID de cliente">
-        <input type="text" name="codigo_producto" placeholder="Código del producto">
-        <input type="date" name="fecha_compra" placeholder="Fecha de compra">
-        <input type="text" name="cantidad_comprada" placeholder="Cantidad comprada">
-        <input type="text" name="precio_unitario" placeholder="Precio unitario">
-        <input type="text" name="total_pagar" placeholder="Total a pagar">
-        <button type="submit" name="Captura">Captura</button>
-    </form>  
+
+    <div class="barra">
+        <a href="TodosFor.html"><span class="icono regresar">&#8592;</span></a>
+        <h2>Bienvenido Usuario</h2>
+        <a href="indexx.html"><span class="icono salir">&#10005;</span></a>
+    </div>
+
+
+    <div class="container">
+
+        <div class="item">
+
+            <div class="contact">
+
+                <div class="first-text"></div>
+                <h3>"Abarrotes Olan"</h3>
+            </div>
+            
+            <div class="submit-form">
+                <h4 class="third-text text">Formulario de Compras</h4>
+                <form action="compras.php" method="post">
+
+                    <div class="input-box">
+                        <input type="text" class="input" name="id_compra" required>
+                        <label for="id_compra">ID compra:</label>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="text"  class="input" name="id_cliente" required>
+                        <label for="id_cliente">ID del cliente:</label>
+
+                    </div>
+
+                    <div class="input-box">
+                        <input type="text"  class="input" name="codigo_producto" required>
+                        <label for="codigo_producto">Codigo del producto</label>
+
+                    </div>
+
+                    <div class="input-box">
+                        <input type="date"  class="input" name="fecha_compra" >
+                        <label for="fecha_compra">Fecha de la compra</label>
+
+                    </div>
+
+                    <div class="input-box">
+                        <input type="text"  class="input" name="cantidad_comprada" required>
+                        <label for="cantidad_comprada">Cantidad comprada</label>
+
+                    </div>
+
+                    <div class="input-box">
+                        <input type="text"  class="input" name="precio_unitario" required>
+                        <label for="precio_unitario">Precio Unitario</label>
+
+                    </div>
+
+                    <div class="input-box">
+                        <input type="text"  class="input" name="total_pagar" required>
+                        <label for="total_pagar">Total a pagar</label>
+
+                    </div>
+
+                    <button type="submit" class="btn" name="Captura">Captura</button>
+
+
+                    
+                </form>
+
+                
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="javascrip.js"></script>
+
 </body>
 </html>

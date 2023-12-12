@@ -3,17 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abarrotes Olan - Formulario Proveedores</title>
+    <title>Formulario Proveedores</title>
+    <link rel="stylesheet" href="estilosnormal.css">
+
 </head>
 <body>
-    <center><h1><big>Formulario Proveedores</big></h1></center>
-    <form action="proveedores.php" method="post">
-        <input type="text" name="id_proveedor" placeholder="ID de proveedor">
-        <input type="text" name="nombre" placeholder="Nombre">
-        <input type="text" name="horario" placeholder="Horario">
-        <input type="text" name="telefono" placeholder="Teléfono">
-        <input type="text" name="empresa" placeholder="Empresa">
-        <button type="submit" name="Captura">Captura</button>
-    </form>  
+
+    <div class="barra">
+        <a href="TodosFor.html"><span class="icono regresar">&#8592;</span></a>
+        <h2>Bienvenido Usuario</h2>
+        <a href="indexx.html"><span class="icono salir">&#10005;</span></a>
+    </div>
+
+
+    <div class="container">
+
+        <div class="item">
+
+            <div class="contact">
+                <div class="first-text"></div>
+                <h3>"Abarrores Olan"</h3>
+            </div>
+
+            <div class="submit-form">
+                <h4 class="third-text text">Formulario de proveedores</h4>
+                <form action="proveedores.php" method="post">
+
+                    <div class="input-box">
+                        <input type="text" class="input" name="id_proveedor" required>
+                        <label for="id_proveedor">Id proveedor</label>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="text" class="input" name="nombre" required>
+                        <label for="nombre">Nombre del proveedor</label>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="text" class="input" name="horario" required >
+                        <label for="horario">Horario del proveedor</label>
+
+                    </div>
+
+                    <div class="input-box">
+                        <input type="text" class="input" name="telefono" required>
+                        <label for="telefono">Telefono del proveedor</label>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="text" class="input" name="empresa" required>
+                        <label for="empresa">Empresa del proveedor</label>
+                    </div>
+
+                    <button type="submit" class="btn" name="Captura">Captura</button>
+                </form>  
+
+            </div>
+        </div>
+    </div>
+
+
+   
 </body>
 </html>
